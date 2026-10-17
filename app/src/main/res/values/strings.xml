@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScreenGuard</string>
+    <string name="accessibility_desc">ScreenGuard需要此权限来监控短视频App的使用时间，并在超时后自动拦截。</string>
+
+    <string name="status_running">监控运行中</string>
+    <string name="status_stopped">监控未启动</string>
+    <string name="today_usage">今日使用</string>
+    <string name="total_time">总时长</string>
+    <string name="block_count">拦截次数</string>
+    <string name="monitored_apps">监控列表</string>
+    <string name="add_app">添加应用</string>
+    <string name="no_rules">暂无监控规则，点击 + 添加</string>
+
+    <string name="daily_limit">每日限额(分钟)</string>
+    <string name="max_opens">每日最大打开次数</string>
+    <string name="cooldown">冷却时间(分钟)</string>
+
+    <string name="enable">启用</string>
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="confirm_delete">确认删除此规则？</string>
+
+    <string name="permission_title">权限设置</string>
+    <string name="perm_accessibility">无障碍服务</string>
+    <string name="perm_usage_stats">使用情况访问</string>
+    <string name="perm_overlay">悬浮窗权限</string>
+    <string name="perm_battery">忽略电池优化</string>
+    <string name="perm_granted">已授予</string>
+    <string name="perm_not_granted">未授予，点击开启</string>
+
+    <string name="blocked_title">应用已锁定</string>
+    <string name="blocked_time_msg">%s 今日已使用 %d 分钟，超过限额 %d 分钟。\n冷却 %d 分钟后可再次使用。</string>
+    <string name="blocked_count_msg">%s 今日已打开 %d 次，超过限制 %d 次。\n冷却 %d 分钟后可再次使用。</string>
+    <string name="blocked_remaining">剩余冷却时间：%s</string>
+    <string name="go_back">返回桌面</string>
+
+    <string name="notif_channel_name">ScreenGuard监控</string>
+    <string name="notif_channel_desc">后台监控服务通知</string>
+    <string name="notif_monitoring">正在监控 %d 个应用</string>
+    <string name="notif_blocked">已拦截 %s</string>
+
+    <string name="select_app">选择应用</string>
+    <string name="used_today">今日: %d分钟 / %d次</string>
+    <string name="limit_info">限额: %d分钟 · %d次/天 · 冷却%d分钟</string>
+</resources>

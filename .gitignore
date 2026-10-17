@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+captures/
+.cxx/
+
+# 本地配置（含 SDK 路径/签名信息）
+local.properties
+
+# 签名密钥（保留 debug 签名）
+*.keystore
+*.jks
+!debug.keystore
+
+# 构建产物
+*.apk
+*.aab
+
+# 日志
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
